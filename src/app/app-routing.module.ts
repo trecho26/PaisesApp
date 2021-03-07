@@ -8,8 +8,8 @@ import { VerPaisComponent } from "./pais/pages/ver-pais/ver-pais.component";
 const ROUTES: Routes = [
     {
         path: "", 
-        pathMatch: "full", 
         component: PorPaisComponent,
+        pathMatch: "full", 
     },
     {
         path: "region", 
@@ -37,6 +37,4 @@ const ROUTES: Routes = [
         RouterModule,
     ]
 })
-export class AppRoutingModule {
-
-}
+export class AppRoutingModule {}
